@@ -20,6 +20,6 @@ Cipher_Airdrop aims to assist individuals without coding or Linux expertise. Fol
 Step 1: Connect to Your VPS
 
 Step 2: Run the Script<br>
-`wget https://raw.githubusercontent.com/muzammilvmx/Wallet-Generator/main/wallet-GEN.sh?token=GHSAT0AAAAAACQSTKHSPZNXFCA2CMLHDTESZSNBC4A && chmod +x wallet-GEN.sh && ./wallet-GEN.sh`<br>
+`wget https://raw.githubusercontent.com/muzammilvmx/Wallet-Generator/main/wallet-GEN.sh && chmod +x wallet-GEN.sh && ./wallet-GEN.sh`<br>
 
 Congratulation You can now GENERate millions of accounts by One click only!!<br>
