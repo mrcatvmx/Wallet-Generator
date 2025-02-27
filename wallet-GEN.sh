@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Create and navigate to the XXXX directory
+
 mkdir -p ~/XXXX
 cd ~/XXXX
 
-# Create package.json file
+
 cat <<EOL > package.json
 {
   "name": "xxxx",
@@ -32,15 +32,15 @@ cat <<EOL > package.json
 }
 EOL
 
-# Install Node.js and npm
+
 curl -sL https://deb.nodesource.com/setup_18.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
 sudo apt install -y nodejs
 
-# Install the required npm packages
+
 npm install
 
-# Create the wallet generator script
+
 cat <<'EOF' > generate_wallets.mjs
 import chalk from 'chalk';
 import { ethers } from 'ethers';
@@ -168,5 +168,5 @@ async function createCosmosWallet() {
 })();
 EOF
 
-# Run the wallet generator script
+
 node generate_wallets.mjs
